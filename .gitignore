@@ -1,0 +1,22 @@
+
+# OpenAI API credentials
+.env
+.env.*
+
+# Virtual environment
+venv/
+.venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# FAISS local database
+faiss_index/
+processed_files.json
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary files
+*.log
